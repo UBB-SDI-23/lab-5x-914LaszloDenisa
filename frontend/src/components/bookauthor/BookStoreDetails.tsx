@@ -1,3 +1,4 @@
+/*
 import { Card, CardActions, CardContent, IconButton } from "@mui/material";
 import { Container } from "@mui/system";
 import { useEffect, useState } from "react";
@@ -52,3 +53,4 @@ export const BookStoreDetails = () => {
 		</Container>
 	);
 };
+*/

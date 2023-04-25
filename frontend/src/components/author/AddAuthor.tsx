@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Author } from "../../models/Author";
 import { BACKEND_API_URL } from "../../constants";
 import axios from "axios";
-import { Button, Card, CardActions, CardContent, IconButton, TextField } from "@mui/material";
+import { Button, Card, CardContent, IconButton, TextField } from "@mui/material";
 import { Container } from "@mui/system";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
 export const AddAuthor = () => {

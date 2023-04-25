@@ -9,21 +9,16 @@ import {
     TableRow,
     TableCell,
     TableBody,
-    CircularProgress,
-    Container,
     IconButton,
     Tooltip,
-    Toolbar,
-    Button,
 } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
-import { Link } from "react-router-dom";
 import ReadMoreIcon from "@mui/icons-material/ReadMore";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 
 export const AuthorShowAll = () => {
-    const [loading, setLoading] = useState(false);
+    const [loading] = useState(false);
     const [authors, setAuthor] = useState<Author[]>([]);
 
     useEffect(() => {

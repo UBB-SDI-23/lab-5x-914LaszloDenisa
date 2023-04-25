@@ -8,7 +8,6 @@ import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { Author } from "../../models/Author";
 import { BookAuthors } from "../../models/BookAuthors";
-import { Book } from "../../models/Book";
 
 export const AuthorDetails = () => {
 	const { authorId } = useParams();

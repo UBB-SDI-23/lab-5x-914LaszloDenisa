@@ -1,3 +1,4 @@
+/*
 import { useEffect, useState } from "react";
 import { BookStore } from "../../models/BookStore";
 import { BACKEND_API_URL } from "../../constants";
@@ -115,4 +116,4 @@ export const BookStoreShowAll = () => {
             )}
         </div>
     );
-};
+};*/

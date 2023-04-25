@@ -1,6 +1,5 @@
 import { BookAuthors } from "./BookAuthors"
 import { BookStore } from "./BookStore"
-import { Author } from "./Author"
 
 export interface Book{
 	id: number;

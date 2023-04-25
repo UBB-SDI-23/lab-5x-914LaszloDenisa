@@ -1,10 +1,11 @@
+/*
 import { Button, Card, CardActions, CardContent, Container, FormLabel, IconButton, TextField, colors } from "@mui/material";
 import axios from "axios";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { BACKEND_API_URL } from "../../constants";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { BookStore } from "../../models/BookStore";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 
 export const BookStoreEdit = () => {
@@ -18,7 +19,6 @@ export const BookStoreEdit = () => {
         store_location: "",
         store_country: "",
         founding_year: 0,
-        best_seller: 1
     });
 
     const updateBookStore = async (event: { preventDefault: () => void }) => {
@@ -108,4 +108,4 @@ export const BookStoreEdit = () => {
             </Card>
         </Container>
     );
-}
+}*/
